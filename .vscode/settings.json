@@ -8,11 +8,11 @@
   "[prisma]": {
     "editor.formatOnSave": true
   },
-  "azureFunctions.deploySubpath": "api/src/functions",
+  "azureFunctions.deploySubpath": "api/dist/functions",
   "azureFunctions.postDeployTask": "npm install",
   "azureFunctions.projectLanguage": "JavaScript",
   "azureFunctions.projectRuntime": "~2",
   "debug.internalConsoleOptions": "neverOpen",
-  "azureFunctions.projectSubpath": "api/src/functions",
+  "azureFunctions.projectSubpath": "api/dist/functions",
   "azureFunctions.preDeployTask": "npm prune"
 }
